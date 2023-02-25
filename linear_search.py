@@ -21,7 +21,7 @@ def linear_search(list, target):
             break #Break from the for loop
 
 result=linear_search(user_list, target) #Get result from the function defined above
-if result==None: #If target not found
+if result==None: #If target not found in the code
     print("Target not found")
 else: #If target found
     print(f"Target found at position",result, "in the list")
